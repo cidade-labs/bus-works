@@ -1,5 +1,5 @@
 /*
- * Coruña Labs — Bus Works · live positions proxy (Cloudflare Worker)
+ * Cidade Labs — Bus Works · live positions proxy (Cloudflare Worker)
  *
  * Why this exists: the browser can't call itranvias.com directly (CSP/CORS).
  * A Worker is a server, so it can. It fetches every line from iTranvias,

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>A Coruña — Bus Works · Coruña Labs</title>
+<title>A Coruña — Bus Works · Cidade Labs</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
 <style>
@@ -86,7 +86,7 @@
 <div class="masthead">
   <div class="top">
     <div>
-      <p class="lab"><a href="https://corunalabs.org">Coruña Labs</a></p>
+      <p class="lab"><a href="https://cidadelabs.org">Cidade Labs</a></p>
       <h1 id="m-title">Bus Works</h1>
     </div>
     <div class="langs" id="langs">
@@ -107,7 +107,7 @@
 
 <script>
 /* ==========================================================================
-   Bus Works — Coruña Labs
+   Bus Works — Cidade Labs
    The first tool, and the canonical reference for the shared map tool core
    (masthead, language switcher, rail, toast — see map-template for the
    extracted starting point for new tools).
@@ -196,7 +196,7 @@ function applyText(){
   document.getElementById("r-foot").innerHTML =
     t.attribution +
     ' <a href="https://nap.transportes.gob.es/Files/Detail/1376" target="_blank" rel="noopener">GTFS</a>.' +
-    '<br><a href="https://github.com/Coruna-Labs/bus-works" target="_blank" rel="noopener">' + t.source + ' ↗</a>';
+    '<br><a href="https://github.com/cidade-labs/bus-works" target="_blank" rel="noopener">' + t.source + ' ↗</a>';
   document.querySelectorAll(".langs button").forEach(b=>b.classList.toggle("on",b.dataset.lang===lang));
   if(toast.style.display==="block" && !toast.classList.contains("err")) toast.textContent=t.loading;
 }
